@@ -22,7 +22,7 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
 # Page title
-st.title("Model Accuracy and Real-Time Prediction")
+st.title("Model Accuracy and Real-Time Prediction - Changed Title")
 
 # Display Accuracy
 st.write(f"Model {accuracy}")
